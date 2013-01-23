@@ -1,0 +1,47 @@
+\documentclass[11pt]{NSFamsart}
+\usepackage{latexsym,amsfonts,amsmath,epsfig,multirow,stackrel,natbib,tabularx}
+%\usepackage{times,mathtime} % requires special treatment of bold math, so not used
+
+% This package prints the labels in the margin
+%\usepackage[notref,notcite]{showkeys}
+
+\pagestyle{empty}
+\thispagestyle{plain}
+\pagestyle{plain}
+
+\input{NSF_SSE_macros} %file where we put our macros
+\headsep-0.6in
+
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\textheight9in
+
+
+\newtheorem{resproblem}{Research Problem}
+\newtheorem{research}{Research Objectives}
+
+%\setcounter{page}{1}
+
+
+\begin{document}
+%\setlength{\leftmargini}{2.5ex}
+
+\centerline{\large \bf Proposed Research}
+
+Here is where we give an introduction
+
+\newpage
+
+%\input{biblio}
+%\input{collab}
+\bibliographystyle{spbasic}
+
+\renewcommand{\refname}{\hfil Bibliography \& References Cited \hfil}                   %%
+\renewcommand{\bibliofont}{\normalsize}
+
+\bibliography{FJH22,FJHown22}
+
+\end{document}
+
+
